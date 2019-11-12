@@ -11,7 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker": "DOCKER_BUILDKIT=1 docker build -t $(npm_package_name):$(git rev-parse --abbrev-ref HEAD) ."
   },
   "eslintConfig": {
     "extends": "react-app"
