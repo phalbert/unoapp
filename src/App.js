@@ -11,22 +11,18 @@ class App extends Component {
     }
   }
 
-  componentDidMount(){
+  componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
-    .then(users => this.setState({languages: users}))
+      .then(response => response.json())
+      .then(users => this.setState({ languages: users }))
   }
 
   render() {
     return (
       <div className="App">
-        <CardList name="yihua">
-        {
-  this.state.languages.map(language => <h1 key={language.id}> { language.name } </h1>)
-        }
-        </CardList>   
+        <CardList languages={this.state.languages}/>
       </div>
-    );
+    ); 
   }
 }
 
