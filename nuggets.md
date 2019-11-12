@@ -16,6 +16,7 @@
 
 ## State management
 
+- State consists of any change in the app due to a user action
 - Consider performance implications when deciding where state lives because if state changes in a component, the change is announced to whichever component that receives the state as props and the component has to re-render
 
 

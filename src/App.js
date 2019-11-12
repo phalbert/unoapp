@@ -19,12 +19,15 @@ class App extends Component {
   }
 
   render() {
+    const { items, searchValue } = this.state
+    const filteredItems = items.filter(item => item.name.toLowerCase().includes(searchValue.toLowerCase()))
+
     return (
       <div className='App'>
-        <input type='search' placeholder='Search' onChange={e => this.setState({searchValue: e.target.value})} />
-        <CardList items={this.state.items}/>
+        <input type='search' placeholder='Search' onChange={e => this.setState({ searchValue: e.target.value })} />
+        <CardList items={ filteredItems } />
       </div>
-    ); 
+    );
   }
 }
 
