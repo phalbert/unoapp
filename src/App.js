@@ -11,6 +11,8 @@ class App extends Component {
       items: [],
       searchValue: ''
     }
+
+    this.handleChange = this.handleChange.bind(this)
   }
 
   componentDidMount() {
@@ -19,13 +21,17 @@ class App extends Component {
       .then(users => this.setState({ items: users }))
   }
 
+  handleChange(e) {
+    this.setState({ searchValue: e.target.value })
+  }
+
   render() {
     const { items, searchValue } = this.state
     const filteredItems = items.filter(item => item.name.toLowerCase().includes(searchValue.toLowerCase()))
 
     return (
       <div className='App'>
-        <Search placeholder='Search' handleChange={e => this.setState({ searchValue: e.target.value })} />
+        <Search placeholder='Search' handleChange={this.handleChange} />
         <CardList items={ filteredItems } />
       </div>
     );
