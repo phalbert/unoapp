@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/unoapp/static/css/main.d5fef680.chunk.css",
-    "main.js": "/unoapp/static/js/main.95326ee9.chunk.js",
-    "main.js.map": "/unoapp/static/js/main.95326ee9.chunk.js.map",
+    "main.js": "/unoapp/static/js/main.d7d42a99.chunk.js",
+    "main.js.map": "/unoapp/static/js/main.d7d42a99.chunk.js.map",
     "runtime-main.js": "/unoapp/static/js/runtime-main.9f0d9c02.js",
     "runtime-main.js.map": "/unoapp/static/js/runtime-main.9f0d9c02.js.map",
     "static/js/2.b8bc401e.chunk.js": "/unoapp/static/js/2.b8bc401e.chunk.js",
     "static/js/2.b8bc401e.chunk.js.map": "/unoapp/static/js/2.b8bc401e.chunk.js.map",
     "index.html": "/unoapp/index.html",
-    "precache-manifest.48e224f5121ddd944bb2f671a30368e6.js": "/unoapp/precache-manifest.48e224f5121ddd944bb2f671a30368e6.js",
+    "precache-manifest.63b75b46016fc3b96ae68a82cb6824c1.js": "/unoapp/precache-manifest.63b75b46016fc3b96ae68a82cb6824c1.js",
     "service-worker.js": "/unoapp/service-worker.js",
     "static/css/main.d5fef680.chunk.css.map": "/unoapp/static/css/main.d5fef680.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.9f0d9c02.js",
     "static/js/2.b8bc401e.chunk.js",
     "static/css/main.d5fef680.chunk.css",
-    "static/js/main.95326ee9.chunk.js"
+    "static/js/main.d7d42a99.chunk.js"
   ]
 }

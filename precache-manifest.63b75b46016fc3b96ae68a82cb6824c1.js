@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90f6e0b0497f8a601325d9b89ffff208",
+    "revision": "9e57a791da3bcbf903fa568c79960b32",
     "url": "/unoapp/index.html"
   },
   {
-    "revision": "5d984184d9a5c004dfcb",
+    "revision": "80f9c46dbdcc1c78f7ac",
     "url": "/unoapp/static/css/main.d5fef680.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unoapp/static/js/2.b8bc401e.chunk.js"
   },
   {
-    "revision": "5d984184d9a5c004dfcb",
-    "url": "/unoapp/static/js/main.95326ee9.chunk.js"
+    "revision": "80f9c46dbdcc1c78f7ac",
+    "url": "/unoapp/static/js/main.d7d42a99.chunk.js"
   },
   {
     "revision": "ce509e9286057546f3d6",
