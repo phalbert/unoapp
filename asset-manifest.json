@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/unoapp/static/css/main.5989f614.chunk.css",
-    "main.js": "/unoapp/static/js/main.4993bb63.chunk.js",
-    "main.js.map": "/unoapp/static/js/main.4993bb63.chunk.js.map",
+    "main.css": "/unoapp/static/css/main.d5fef680.chunk.css",
+    "main.js": "/unoapp/static/js/main.95326ee9.chunk.js",
+    "main.js.map": "/unoapp/static/js/main.95326ee9.chunk.js.map",
     "runtime-main.js": "/unoapp/static/js/runtime-main.9f0d9c02.js",
     "runtime-main.js.map": "/unoapp/static/js/runtime-main.9f0d9c02.js.map",
-    "static/js/2.c4a9153d.chunk.js": "/unoapp/static/js/2.c4a9153d.chunk.js",
-    "static/js/2.c4a9153d.chunk.js.map": "/unoapp/static/js/2.c4a9153d.chunk.js.map",
+    "static/js/2.b8bc401e.chunk.js": "/unoapp/static/js/2.b8bc401e.chunk.js",
+    "static/js/2.b8bc401e.chunk.js.map": "/unoapp/static/js/2.b8bc401e.chunk.js.map",
     "index.html": "/unoapp/index.html",
-    "precache-manifest.73b512b5bf74fc328e6e4ad59f966550.js": "/unoapp/precache-manifest.73b512b5bf74fc328e6e4ad59f966550.js",
+    "precache-manifest.48e224f5121ddd944bb2f671a30368e6.js": "/unoapp/precache-manifest.48e224f5121ddd944bb2f671a30368e6.js",
     "service-worker.js": "/unoapp/service-worker.js",
-    "static/css/main.5989f614.chunk.css.map": "/unoapp/static/css/main.5989f614.chunk.css.map"
+    "static/css/main.d5fef680.chunk.css.map": "/unoapp/static/css/main.d5fef680.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.9f0d9c02.js",
-    "static/js/2.c4a9153d.chunk.js",
-    "static/css/main.5989f614.chunk.css",
-    "static/js/main.4993bb63.chunk.js"
+    "static/js/2.b8bc401e.chunk.js",
+    "static/css/main.d5fef680.chunk.css",
+    "static/js/main.95326ee9.chunk.js"
   ]
 }
