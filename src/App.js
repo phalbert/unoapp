@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { CardList } from './components/card-list/card-list.component'
 import { Search } from './components/search/search.component'
+import { Clock } from './components/utils'
 
 class App extends Component {
   constructor() {
@@ -32,6 +33,7 @@ class App extends Component {
 
     return (
       <div className='App'>
+        <Clock />
         <h1>Items Rolodex</h1>
         <Search placeholder='Search' onSearchInfoChange={this.onSearchInfoChange} />
         <CardList items={ filteredItems } />
