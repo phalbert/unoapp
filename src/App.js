@@ -12,7 +12,6 @@ class App extends Component {
       searchValue: ''
     }
 
-    this.handleChange = this.handleChange.bind(this)
   }
 
   componentDidMount() {
@@ -21,7 +20,7 @@ class App extends Component {
       .then(users => this.setState({ items: users }))
   }
 
-  handleChange(e) {
+  handleChange = (e) => {
     this.setState({ searchValue: e.target.value })
   }
 
@@ -31,6 +30,7 @@ class App extends Component {
 
     return (
       <div className='App'>
+        <h1>Items Rolodex</h1>
         <Search placeholder='Search' handleChange={this.handleChange} />
         <CardList items={ filteredItems } />
       </div>

@@ -2,7 +2,9 @@
   "name": "unoapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://phalbert.github.com/unoapp",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
@@ -14,7 +16,9 @@
     "eject": "react-scripts eject",
     "clean": "docker stop $(docker ps -q --filter ancestor=$npm_package_name:$npm_package_version )",
     "docker": "DOCKER_BUILDKIT=1 docker build -t $npm_package_name:$npm_package_version .",
-    "postdocker": "docker run -d -p 3000:3000 -v ${PWD}:/app -v /app/node_modules --name $npm_package_name $npm_package_name:$npm_package_version"
+    "postdocker": "docker run -d -p 3000:3000 -v ${PWD}:/app -v /app/node_modules --name $npm_package_name $npm_package_name:$npm_package_version",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
