@@ -1,11 +1,24 @@
 import React from 'react'
 import './search.styles.css'
 
-export const Search = ({ placeholder, handleChange }) => ( 
-    <input
+export class Search extends React.PureComponent {
+    state={
+        value: ''
+    }
+
+    handleChange = (e) => {
+        this.setState({ value: e.target.value })
+        this.props.onSearchInfoChange(e.target.value);
+    }
+
+   render(){
+       return ( 
+       <input
         className='search'
+        value={this.state.value}
         type='search'
-        placeholder={placeholder}
-        onChange={handleChange}
-    />
-);
+        placeholder={this.props.placeholder}
+        onChange={this.handleChange}
+    />);
+    }
+}
